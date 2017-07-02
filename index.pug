@@ -1,0 +1,22 @@
+index.html
+  link(rel="stylesheet", href="style.css")
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+  script(src="homePage.js") 
+  head
+    h1 Canuck Rising
+  body
+    p
+    p
+    button#viewMembers Members
+    p
+    button#viewAttacks Attacks
+
+    form(action="/feedback", method="POST")
+      label(for='feedbackBox') Feedback:
+      input#feedbackBox(feedback='feedbackBox')
+      br
+      button(type=submit, value="Submit Feedback")#feedbackSubmitButton
+
+      
+      
+
